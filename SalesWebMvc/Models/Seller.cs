@@ -48,5 +48,6 @@ namespace SalesWebMvc.Models
         {
             return Sales.Where(sr => sr.Data >= initialDate && sr.Data <= finalDate).Sum(sr => sr.Valor);
         }
+
     }   
 }
